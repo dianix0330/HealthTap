@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 50px;
+  box-sizing: border-box;
+  background-color: #191918;
+  color: white;
+}
+
+.box-content {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.box-content__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(0deg);
+}
+
+.input-content {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+.input-content__size, .input-content__start {
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  position: absolute;
+}
