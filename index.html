@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Pyramid</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="slider.css" />
+    <title>HealthTap Pyramid</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/custom_style.css" />
   </head>
-  <body onload="composeContent()">
+  <body onload="drawSquare()">
     <div class="input-content">
       <div class="input-content__size">
         <label for="stepSize">Step Size:</label>
@@ -17,11 +17,11 @@
         <input type="range" id="startColor" value="0" min="0" max="15" class="slider"/>
         <p id="colorValue">0</p>
       </div>
-      <button class="btn-start" onclick="handleRotateClick()">Start</button>
+      <button class="btn__start" onclick="handleRotateClick()">Start</button>
     </div>
     <div class="box-content">
       <div id="container" class="box-content__container"></div>
     </div>
-    <script src="index.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>
